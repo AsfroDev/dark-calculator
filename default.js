@@ -225,7 +225,7 @@ function calc_soma() {
     console.log("resultado: " + resultado);
     operando = "off";
     operacao = "null";
-    valor1 = "";
+    valor1 = resultado;
     valor2 = "";
 }
 function calc_subtracao() {
@@ -234,7 +234,7 @@ function calc_subtracao() {
     console.log("resultado: " + resultado);
     operando = "off";
     operacao = "null";
-    valor1 = "";
+    valor1 = resultado;
     valor2 = "";
 }
 function calc_divisao(){
@@ -243,7 +243,7 @@ function calc_divisao(){
     console.log("resultado: " + resultado);
     operando = "off";
     operacao = "null";
-    valor1 = "";
+    valor1 = resultado;
     valor2 = "";
 }
 function calc_multiplicacao(){
@@ -252,6 +252,6 @@ function calc_multiplicacao(){
     console.log("resultado: " + resultado);
     operando = "off";
     operacao = "null";
-    valor1 = "";
+    valor1 = resultado;
     valor2 = "";
 }
