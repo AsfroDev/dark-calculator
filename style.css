@@ -26,7 +26,7 @@ p{
 .main-box {
   width: 300px;
   height: 500px;
-  margin-top: 0px;
+  margin-top: -80px;
   /*background: linear-gradient(1120deg, #35478c,#008dc5,#00ccbc,#b1ff91);*/
   background-color: #222129;
   border-radius: 20px;
