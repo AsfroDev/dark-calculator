@@ -4,7 +4,6 @@ var valor2 = "";
 var operando = "off";
 operacao = "null";
 
-
 //funções das teclas numéricas
 function i_7() {
     switch (operando) {
@@ -170,9 +169,7 @@ function i_0() {
     }
 }
 
-
 //funções dos operadores
-
 function limpar() {
     document.getElementById("screen-number").innerHTML = "0";
     operacao = "null";
