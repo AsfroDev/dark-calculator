@@ -8,7 +8,6 @@ body {
 .main-background {
   width: 100vw;
   height: 100vh;
-  
   background-size: 100%;
   background: linear-gradient(68deg, #404258, #50577A, #6B728E);
   padding: 20px 5px;
@@ -23,7 +22,7 @@ body {
 .main-box {
   width: 300px;
   height: 500px;
-  margin-bottom: 120px;
+  margin-bottom: 0;
   /*background: linear-gradient(1120deg, #35478c,#008dc5,#00ccbc,#b1ff91);*/
   background-color: #222129;
   border-radius: 20px;
@@ -64,8 +63,14 @@ body {
   outline: none;
   border: none;
   box-shadow: 0 6px #B6B5BC;
-  /*-webkit-tap-highlight-color: transparent;*/
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;  
   touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0 0px #666;
+  transform: translateY(4px);
 }
 
 .input-box {
