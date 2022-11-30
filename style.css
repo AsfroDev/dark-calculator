@@ -5,6 +5,14 @@ body {
   align-items: center;
 }
 
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  position: relative;
+}
+
 p{
   padding-top: 5px;  
 }
