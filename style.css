@@ -5,6 +5,10 @@ body {
   align-items: center;
 }
 
+p{
+  padding-top: 5px;  
+}
+
 .main-background {
   width: 100vw;
   height: 100vh;
@@ -22,7 +26,7 @@ body {
 .main-box {
   width: 300px;
   height: 500px;
-  margin-bottom: 30px;
+  margin-top: 0px;
   /*background: linear-gradient(1120deg, #35478c,#008dc5,#00ccbc,#b1ff91);*/
   background-color: #222129;
   border-radius: 20px;
@@ -31,7 +35,7 @@ body {
 
 .top-box {
   text-align: center;
-  margin-bottom: -30px;
+  margin-bottom: -35px;
   color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
