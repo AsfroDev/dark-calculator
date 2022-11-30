@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-background {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+  background: linear-gradient(68deg, #404258, #50577A, #6B728E);
+  padding: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  width: 300px;
+  height: 500px;
+  margin-bottom: 0px;
+  /*background: linear-gradient(1120deg, #35478c,#008dc5,#00ccbc,#b1ff91);*/
+  background-color: #222129;
+  border-radius: 20px;
+  box-shadow: 0px 10px #191722;
+
+}
+
+.top-box {
+  text-align: center;
+  margin-bottom: -30px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  opacity: 50%;
+}
+
+.value-box>h1 {
+  color: white;
+  background: linear-gradient(-120deg, #191722, #1f1d5c, #050919);
+  background-color: #191722;
+  box-shadow: 0px 0px 0px 1px #191765;
+  border-radius: 20px;
+  margin-left: 15px;
+  font-size: 80px;
+  text-align: end;
+  margin-right: 15px;
+  padding-right: 9px;
+}
+
+.input-box button {
+  width: 65px;
+  height: 54.2px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 6px #B6B5BC;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.input-box {
+  margin-top: -33px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

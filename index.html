@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Light Cal</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="main-background">
+
+        <div class="main-box">
+
+            <div class="top-box">
+                <p>developed by <b style="font-style: italic;">AsfroDev</b></p>
+            </div>
+
+            <div class="value-box">
+                <h1 id="screen-number" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">0</h1>
+            </div>
+
+            <div class="input-box">
+                <table>
+                    <tr>
+                        <td>
+                            <button id="c" type="submit" onclick="limpar()"
+                                style="background-color:dimgray;color: white;">c</button>
+                            <button id="potencia" type="submit" onclick=""
+                                style="background-color:dimgray;color: white;">ª</button>
+                            <button id="percent" type="submit" onclick=""
+                                style="background-color:dimgray;color: white;">%</button>
+                            <button id="division" type="submit" onclick="divisao()"
+                                style="background-color:slateblue;color: greenyellow;">/</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="7" type="submit" onclick="i_7()" style="color: black;">7</button>
+                            <button id="8" type="submit" onclick="i_8()" style="color: black;">8</button>
+                            <button id="9" type="submit" onclick="i_9()" style="color: black;">9</button>
+                            <button id="x" type="submit" onclick="multiplicacao()"
+                                style="background-color:slateblue;color: greenyellow;">x</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="4" type="submit" onclick="i_4()" style="color: black;">4</button>
+                            <button id="5" type="submit" onclick="i_5()" style="color: black;">5</button>
+                            <button id="6" type="submit" onclick="i_6()" style="color: black;">6</button>
+                            <button id="-" type="submit" onclick="subtracao()"
+                                style="background-color:slateblue;color: greenyellow;">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="1" type="submit" onclick="i_1()" style="color: black;">1</button>
+                            <button id="2" type="submit" onclick="i_2()" style="color: black;">2</button>
+                            <button id="3" type="submit" onclick="i_3()" style="color: black;">3</button>
+                            <button id="+" type="submit" onclick="soma()"
+                                style="background-color:slateblue;color: greenyellow;">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="0" type="submit" onclick="i_0()"
+                                style="width: 135.3px; color: black;">0</button>
+
+                            <button id="," type="submit" onclick="">,</button>
+                            <button id="=" type="submit" onclick="calc()"
+                                style="background-color:slateblue;color: greenyellow;"> = </button>
+                        </td>
+                </table>
+                <style>
+                    button:active {
+                        box-shadow: 0 0px #666;
+                        transform: translateY(4px);
+                    }
+                </style>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="default.js"></script>
+</body>
+
+</html>
