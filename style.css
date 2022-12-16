@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 body {
   margin: 0;
@@ -39,7 +39,7 @@ p{
   margin-top: -89px;
   background-color: #B97A95;
   border-radius: 10px;
-  box-shadow: 0px 10px #191722;
+  box-shadow: 7px 10px #191722;
 }
 
 .top-box {
@@ -65,11 +65,12 @@ p{
   overflow: hidden;
 }
 .value-box>h1 {
-  font-family: 'VT323', monospace;
+  font-family: 'Teko', sans-serif;
   color: rgb(255, 248, 248);
   font-size: 70px;
   letter-spacing: 3px;
   margin-right: 5px;
+  padding-top: 5px;
 }
 /*.value-box>h1{
   outline: 5px solid red;
