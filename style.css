@@ -70,6 +70,10 @@ p{
   letter-spacing: 3px;
   margin-right: 5px;
 }
+.value-box>h1{
+  outline: 5px solid red;
+  max-width:;
+}
 
 .input-box {
   width: 100%;
@@ -82,14 +86,14 @@ p{
   height: 54.2px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: white;
-  font-size: 24px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
   border: 0.5px black solid;
   box-shadow: 0 3px #1a1820;
+  outline: none;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   -moz-tap-highlight-color: transparent;  
   touch-action: manipulation;
@@ -103,4 +107,3 @@ button:active {
   transform: translateY(4px);
   box-shadow: 0px 0px 0px 0px #666;
 }
-

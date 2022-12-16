@@ -3,6 +3,7 @@ var valor1 = "";
 var valor2 = "";
 var operando = "off";
 operacao = "null";
+resultado = "";
 
 //funções das teclas numéricas
 function i_7() {
