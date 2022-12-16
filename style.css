@@ -62,6 +62,7 @@ p{
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  overflow: hidden;
 }
 .value-box>h1 {
   font-family: 'VT323', monospace;
@@ -70,11 +71,10 @@ p{
   letter-spacing: 3px;
   margin-right: 5px;
 }
-.value-box>h1{
+/*.value-box>h1{
   outline: 5px solid red;
   max-width:;
-}
-
+}*/
 .input-box {
   width: 100%;
   display: flex;
