@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   margin: 0;
   display: flex;
@@ -21,7 +23,7 @@ p{
   width: 100vw;
   height: 100vh;
   background-size: 100%;
-  background: linear-gradient(68deg, #404258, #50577A, #6B728E);
+  background: linear-gradient(68deg, #CDF0EA, #F9F9F9, #F6C6EA);
   padding: 20px 5px;
   display: flex;
   justify-content: center;
@@ -35,46 +37,59 @@ p{
   width: 300px;
   height: 500px;
   margin-top: -89px;
-  /*background: linear-gradient(1120deg, #35478c,#008dc5,#00ccbc,#b1ff91);*/
-  background-color: #222129;
-  border-radius: 20px;
+  background-color: #B97A95;
+  border-radius: 10px;
   box-shadow: 0px 10px #191722;
 }
 
 .top-box {
   text-align: center;
-  margin-bottom: -35px;
-  color: aliceblue;
+  color: rgb(19, 46, 70);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
-  opacity: 50%;
+  opacity: 75%;
 }
 
-.value-box>h1 {
-  color: white;
-  background: linear-gradient(-120deg, #191722, #1f1d5c, #050919);
-  background-color: #191722;
-  box-shadow: 0px 0px 0px 1px #191765;
-  border-radius: 20px;
+.value-box {
+  max-width: 260px;
+  width: 100%;
+  height: 80px;
+  padding-top: 3px;
   margin-left: 15px;
-  font-size: 80px;
-  text-align: end;
-  margin-right: 15px;
-  padding-right: 9px;
+  border: rgb(18, 14, 32) solid 2px;
+  border-radius: 5px;
+  background-color: #2e2228;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.value-box>h1 {
+  font-family: 'VT323', monospace;
+  color: rgb(255, 248, 248);
+  font-size: 70px;
+  letter-spacing: 3px;
+  margin-right: 5px;
 }
 
+.input-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
 .input-box button {
-  width: 65px;
+  width: 62px;
   height: 54.2px;
   margin-bottom: 5px;
-  border-radius: 50px;
+  border-radius: 5px;
   background-color: white;
   font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   cursor: pointer;
   outline: none;
-  border: none;
-  box-shadow: 0 6px #B6B5BC;
+  border: 0.5px black solid;
+  box-shadow: 0 3px #1a1820;
   -webkit-tap-highlight-color: transparent;
   -moz-tap-highlight-color: transparent;  
   touch-action: manipulation;
@@ -89,9 +104,3 @@ button:active {
   box-shadow: 0px 0px 0px 0px #666;
 }
 
-.input-box {
-  margin-top: -33px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
